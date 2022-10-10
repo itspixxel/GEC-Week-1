@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{44ba2d03-7894-4b08-8052-2ac11b6b0e67}</ProjectGuid>
-    <RootNamespace>Prog7pi</RootNamespace>
+    <ProjectGuid>{911c261e-a939-4daa-ac37-32f39ad8b866}</ProjectGuid>
+    <RootNamespace>Prog8pi</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Prog7_pi.cpp" />
+    <ClCompile Include="Prog8_pi.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
