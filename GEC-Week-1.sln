@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prog10_ShareOfHaribo", "Pro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prog11_DoomDifficultyMenu", "Prog11_DoomDifficultyMenu\Prog11_DoomDifficultyMenu.vcxproj", "{05957B04-07D9-4E3A-8417-FC58539DD963}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prog12_ifThisThenThat", "Prog12_ifThisThenThat\Prog12_ifThisThenThat.vcxproj", "{A2944382-3810-45A0-89EA-21704BB35708}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{05957B04-07D9-4E3A-8417-FC58539DD963}.Release|x64.Build.0 = Release|x64
 		{05957B04-07D9-4E3A-8417-FC58539DD963}.Release|x86.ActiveCfg = Release|Win32
 		{05957B04-07D9-4E3A-8417-FC58539DD963}.Release|x86.Build.0 = Release|Win32
+		{A2944382-3810-45A0-89EA-21704BB35708}.Debug|x64.ActiveCfg = Debug|x64
+		{A2944382-3810-45A0-89EA-21704BB35708}.Debug|x64.Build.0 = Debug|x64
+		{A2944382-3810-45A0-89EA-21704BB35708}.Debug|x86.ActiveCfg = Debug|Win32
+		{A2944382-3810-45A0-89EA-21704BB35708}.Debug|x86.Build.0 = Debug|Win32
+		{A2944382-3810-45A0-89EA-21704BB35708}.Release|x64.ActiveCfg = Release|x64
+		{A2944382-3810-45A0-89EA-21704BB35708}.Release|x64.Build.0 = Release|x64
+		{A2944382-3810-45A0-89EA-21704BB35708}.Release|x86.ActiveCfg = Release|Win32
+		{A2944382-3810-45A0-89EA-21704BB35708}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
