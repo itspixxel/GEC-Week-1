@@ -12,16 +12,13 @@ int main()
 	cout << "Which game would you like?" << endl;
 	cin >> userChoice;
 
-	if (userStatus == 's' || userStatus == 't')
+	if (userStatus == 's' || userStatus == 't' && userChoice == 1)
 	{
-		if (userChoice == 1)
-		{
-			cout << "You are eligible for a 20% discount!" << endl;
-		}
-		else if (userChoice == 2)
-		{
-			cout << "You are eligible for a 10% discount!" << endl;
-		}
+		cout << "You are eligible for a 20% discount!" << endl;
+	}
+	else if (userStatus == 's' || userStatus == 't' && userChoice == 2)
+	{
+		cout << "You are eligible for a 10% discount!" << endl;
 	}
 	else 
 	{
