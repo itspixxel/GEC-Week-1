@@ -7,14 +7,14 @@ int main()
 	int qCount = 1;
 	int userInput;
 
-	cout << "Current Health: " << playerLife;
+	cout << "Current Health: " << playerLife << endl;
 
 	do
 	{
 		cout << "Question " << qCount << ": How much damage shall I deal?\n";
 		cin >> userInput;
-		playerLife -= ""
-		cout << "Current Health: " << playerLife;
+		playerLife -= userInput;
+		cout << "Current Health: " << playerLife << endl;
 		qCount++;
 	} while (playerLife > 0);
 }
