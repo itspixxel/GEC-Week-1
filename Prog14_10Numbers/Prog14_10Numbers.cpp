@@ -42,5 +42,5 @@ int main()
 			cout << "Mean: " << mean << endl;
 		}
 	} while (inputNum != 0);
-	cout << "..exit" << endl;
+	cout << "Exiting..." << endl;
 }
