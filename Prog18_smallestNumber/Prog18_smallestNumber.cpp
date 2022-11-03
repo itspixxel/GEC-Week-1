@@ -17,6 +17,7 @@ int main()
 		cout << "Please enter another integer" << endl;
 		cin >> b;
 		smallestNumber(a, b);
+		cout << endl;
 	}
 
 	for (int i = 0; i < 3; i++)
