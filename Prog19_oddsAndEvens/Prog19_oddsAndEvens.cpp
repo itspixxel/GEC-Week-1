@@ -13,7 +13,7 @@ int main()
 
 	for (int i = 0; i < 10; i++)
 	{
-		cout << "Please enter value " << i+1 << endl;
+		cout << "Please enter value " << i+1 << " of 10" << endl;
 		cin >> number;
 		if (isOddorEven(number))
 		{
