@@ -7,7 +7,6 @@ int main()
 	int playerInput;
 
 	cout << "Please choose your difficulty:\n1. I'm too young to die\n2. Hey, not too rough!\n3. Hurt me plenty.\n4. Ultra-Violence\n5. Nightmare...\n\nPlease enter a number 1-5..." << endl;
-
 	cin >> playerInput;
 
 	switch (playerInput)
