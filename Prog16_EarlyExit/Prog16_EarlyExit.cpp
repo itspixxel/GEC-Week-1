@@ -3,9 +3,7 @@ using namespace std;
 
 int main()
 {
-	int playerLife = 100;
-	int qCount = 1;
-	int userInput;
+	int playerLife = 100, qCount = 1, userInput;
 
 	cout << "Current Health: " << playerLife << endl;
 
