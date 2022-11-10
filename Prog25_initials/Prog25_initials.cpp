@@ -10,7 +10,7 @@ int main()
 	{
 		if (firstMidSurArr[i] == ' ')
 		{
-			cout << "Found space" << endl;
+
 		}
 	}
 }
