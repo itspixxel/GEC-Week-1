@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1350bbc2-8b87-4a38-8125-caa3f1c3043b}</ProjectGuid>
-    <RootNamespace>Prog35theChangingPointer</RootNamespace>
+    <ProjectGuid>{a02655b1-ff70-445f-aa88-8626a2823d34}</ProjectGuid>
+    <RootNamespace>Prog36usingReferences</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Prog35_theChangingPointer</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Prog36_theChangingPointer.cpp" />
+    <ClCompile Include="Prog36_usingReferences.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
