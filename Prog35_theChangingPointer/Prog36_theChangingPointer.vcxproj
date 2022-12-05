@@ -22,9 +22,8 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{1350bbc2-8b87-4a38-8125-caa3f1c3043b}</ProjectGuid>
-    <RootNamespace>Prog35theChangingPointer</RootNamespace>
+    <RootNamespace>Prog36theChangingPointer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Prog35_theChangingPointer</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
