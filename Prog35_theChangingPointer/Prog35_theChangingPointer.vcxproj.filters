@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Prog36_theChangingPointer.cpp">
+    <ClCompile Include="Prog35_theChangingPointer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
