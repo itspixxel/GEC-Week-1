@@ -1,0 +1,10 @@
+john 300
+pixx 200
+eve 4
+eve 4
+eve 4
+sky 3
+maple 2
+pixx 1
+0 0
+0 0
