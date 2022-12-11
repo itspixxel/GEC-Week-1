@@ -5,21 +5,20 @@
 <br/>
 <div align="center"><img src="demo.gif"></img></div>
 <h2>About</h2>
-Context and progress go here
+
+Various programs made with C++ to learn the basics and understand industry practices of programming with the language.
 
 <h2>Goal and requirements</h2>
 
-The idea behind first implementation. What is expected, what should be included, what should not be included.
+Problem solving and understanding of the C++ programming language and object orientated techniques
 
 <h2>Key learnings</h2>
 
-- Be 
-- clear
-- brief 
-- and 
-- concise
-
-If project has been improved after submission, here is a good place to specify it.
+- Object-Oriented Programming 
+- Reading documentation and using tools that best achieve a goal
+- Real world implementations of the programs 
+- An understanding of industry used tools and techniques including debugging 
+- Best coding practices that will be used throughout my career in the industry.
 
 <h2>Installation</h2>
 
@@ -33,14 +32,4 @@ Or use <a href="https://github.com/cesarferreira/dryrun" target="_blank">`dryrun
 Mention pull requests. Link to an example and/or put it down here
 
 <h2>Project status</h2>
-Insert here
-
-<h2>Credits</h2>
-
-- Author: <a href="https://twitter.com/r4dixx" target="_blank">Amaël Sikel</a>
-- Illustrations
-- Colors
-- Any material
-
-<h2>Copyright</h2>
-This project is licensed under the terms of the MIT license and protected by Udacity Honor Code and Community Code of Conduct. See <a href="LICENSE.md">license</a> and <a href="LICENSE.DISCLAIMER.md">disclaimer</a>.
+<div><img src="https://progress-bar.dev/77"></div>
