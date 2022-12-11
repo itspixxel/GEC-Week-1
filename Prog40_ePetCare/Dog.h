@@ -1,7 +1,6 @@
-#include <iostream>
 #include "Pet.h"
 
-class Dog : public Pet {
+class Dog : Pet {
 public:
     // Constructor
     Dog() {

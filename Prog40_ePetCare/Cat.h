@@ -1,6 +1,6 @@
 #include "Pet.h"
 
-class Cat : public Pet {
+class Cat : Pet {
 public:
     // Constructor
     Cat() {
