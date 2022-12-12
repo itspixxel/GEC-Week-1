@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prog39_top10Scores", "Prog3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prog35_theChangingPointer", "Prog35_theChangingPointer\Prog35_theChangingPointer.vcxproj", "{3ACF9994-456A-42E4-B69F-D325A0DCEC68}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prog40_ePetCare", "Prog40_ePetCare\Prog40_ePetCare.vcxproj", "{B989206C-4ACE-4494-BD21-300E7EA7B749}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -311,6 +313,14 @@ Global
 		{3ACF9994-456A-42E4-B69F-D325A0DCEC68}.Release|x64.Build.0 = Release|x64
 		{3ACF9994-456A-42E4-B69F-D325A0DCEC68}.Release|x86.ActiveCfg = Release|Win32
 		{3ACF9994-456A-42E4-B69F-D325A0DCEC68}.Release|x86.Build.0 = Release|Win32
+		{B989206C-4ACE-4494-BD21-300E7EA7B749}.Debug|x64.ActiveCfg = Debug|x64
+		{B989206C-4ACE-4494-BD21-300E7EA7B749}.Debug|x64.Build.0 = Debug|x64
+		{B989206C-4ACE-4494-BD21-300E7EA7B749}.Debug|x86.ActiveCfg = Debug|Win32
+		{B989206C-4ACE-4494-BD21-300E7EA7B749}.Debug|x86.Build.0 = Debug|Win32
+		{B989206C-4ACE-4494-BD21-300E7EA7B749}.Release|x64.ActiveCfg = Release|x64
+		{B989206C-4ACE-4494-BD21-300E7EA7B749}.Release|x64.Build.0 = Release|x64
+		{B989206C-4ACE-4494-BD21-300E7EA7B749}.Release|x86.ActiveCfg = Release|Win32
+		{B989206C-4ACE-4494-BD21-300E7EA7B749}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
