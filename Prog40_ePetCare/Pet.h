@@ -1,34 +1,75 @@
+#pragma once
 #include <iostream>
+using namespace std;
 
-// The Pet class
 class Pet {
-public:
-    // Constructor that takes two int parameters and sets them to 0
-    Pet(int hunger = 0, int boredom = 0);
+    public:
+        Pet(int hunger = 0, int boredom = 0) : m_hunger(hunger), m_boredom(boredom)
+        {
+            cout << endl;
+            cout << "A new pet has arrived!" << endl;
+        }
 
-    // Destructor
-    ~Pet();
+        virtual ~Pet()
+        {
 
-    // Virtual void method called Talk
-    virtual void talk();
+        }
 
-    // Void method called Feed that takes a single int parameter called food
-    void feed(int food = 4);
+        virtual void Talk()
+        {
+            int mood = GetMood();
+            cout << endl;
+            cout << "Pet: I feel ";
 
-    // Void method called Play that takes a single int parameter called fun
-    void play(int fun = 4);
+            if (mood > 12) {
+                cout << "mad" << endl;
+            }
+            else if (mood > 8) {
+                cout << "frustrated" << endl;
+            }
+            else if (mood > 4) {
+                cout << "okay" << endl;
+            }
+            else {
+                cout << "happy" << endl;
+            }
+            PassingTime(1);
+        }
 
-private:
-    // Private member variables m_hunger and m_boredom
-    int m_hunger;
-    int m_boredom;
+        void Feed(int food = 4)
+        {
+            cout << endl;
+            cout << "Burp!" << endl;
+            m_hunger -= food;
+            if (m_hunger < 0) {
+                m_hunger = 0;
+            }
+            PassingTime(1);
+        }
 
-protected:
-    // Protected inline constant function that takes an int and returns the sum of m_hunger and m_boredom
-    inline int GetMood() const {
-        return m_hunger + m_boredom;
-    }
+        void Play(int fun = 4)
+        {
+            cout << endl;
+            cout << "Whee!" << endl;
+            m_boredom -= fun;
+            if (m_boredom < 0) {
+                m_boredom = 0;
+            }
+            PassingTime(1);
+        }
 
-    // Protected void method called PassingTime that takes a pre-set int equal to 1
-    void PassingTime(int time = 1);
+    protected:
+        const int GetMood()
+        {
+            return m_hunger + m_boredom;
+        }
+
+        void PassingTime(int time)
+        {
+            m_hunger += time;
+            m_boredom += time;
+        }
+    private:
+        int m_hunger;
+        int m_boredom;
 };
